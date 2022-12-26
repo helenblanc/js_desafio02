@@ -17,17 +17,15 @@ function ingresar(){
     console.log('numberthree: ', numberthree)
     console.log('total: ', total)
 
-    if(total === 999){
+    password1.innerHTML = ""
+    password2.innerHTML = ""
+    password3.innerHTML = ""
+
+    if(total === 911){
         password1.innerHTML = "password 1 correcto"
-        password2.innerHTML = ""
-        password3.innerHTML = ""
     }else if(total === 714){
-        password1.innerHTML = ""
         password2.innerHTML = "password 2 correcto"
-        password3.innerHTML = ""
     }else{
-        password1.innerHTML = ""
-        password2.innerHTML = ""
         password3.innerHTML = "password incorrecto"
     }
 
