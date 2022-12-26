@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejecución 2.</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="result">
+            <h3>puedes llevar hasta 10 tickets en total</h3>
+        </div>
+        <div class="container">
+            <div>
+                <img id="img-nitro" src="assets/img/github.PNG" alt="" style="margin-left: 2em;">
+                <input type="number" name="github" id="txt-github" required value="0">
+            </div>
+            <div>
+                <img id="img-nitro" src="assets/img/slack.PNG" alt="" style="margin-left: 2em;">
+                <input type="number" name="slack" id="txt-slack" required value="0">
+            </div>
+            <div>
+                <img id="img-nitro" src="assets/img/git.PNG" alt="" style="margin-left: 2em;">
+                <input type="number" name="nitro" id="txt-git" required value="0">
+            </div>
+        </div>
+        <div class="result">
+            <button type="button" onclick="verificar()">VERIFICAR</button>
+        </div>
+        <div class="result">
+            <p id="txt-result"></p>
+        </div>
+    </form>
+    <script src="assets/js/stickers.js"></script>
+</body>
+
+</html>
